@@ -2,8 +2,8 @@
 
 /* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
 
-int sumar(const int a, const int b) {
-    return a + b;
+int sumar(const int numeroA, const int numeroB) {
+    return numeroA + numeroB;
 }
 
 /* ── restar — ya implementada ────────────────────────────────────────────── */
@@ -20,6 +20,6 @@ int multiplicar(const int a, const int b) {
 }
 
 /* ── esPar ────────────────────────────────────────────────────────────────── */
-int esPar(const int n) {
-    return (n % 2) == 0;
+int esPar(int n) {
+    return (n % 2) == 0; /* version main */
 }
